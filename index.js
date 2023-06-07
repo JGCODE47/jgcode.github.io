@@ -34,7 +34,7 @@ __export(assets_manifest_exports, {
 });
 var assets_manifest_default, init_assets_manifest = __esm({
   "server-assets-manifest:@remix-run/dev/assets-manifest"() {
-    assets_manifest_default = { entry: { module: "/build/entry.client-44E56S5E.js", imports: ["/build/_shared/chunk-DQFVS2MO.js", "/build/_shared/chunk-5XCBIPQZ.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-UBJQX3DJ.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/Contact._index": { id: "routes/Contact._index", parentId: "root", path: "Contact", index: !0, caseSensitive: void 0, module: "/build/routes/Contact._index-S5HXRWZK.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/Profile._profile": { id: "routes/Profile._profile", parentId: "root", path: "Profile", index: void 0, caseSensitive: void 0, module: "/build/routes/Profile._profile-YY3CZJW7.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/Project._index": { id: "routes/Project._index", parentId: "root", path: "Project", index: !0, caseSensitive: void 0, module: "/build/routes/Project._index-OEXIQRVT.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_index": { id: "routes/_index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_index-DAF4HHQO.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, cssBundleHref: void 0, version: "da199365", hmr: void 0, url: "/build/manifest-DA199365.js" };
+    assets_manifest_default = { entry: { module: "/build/entry.client-LJ5GVJG4.js", imports: ["/build/_shared/chunk-QEVHFCZ7.js", "/build/_shared/chunk-NLQNPAAV.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-3C3YPH5Q.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/Contact._index": { id: "routes/Contact._index", parentId: "root", path: "Contact", index: !0, caseSensitive: void 0, module: "/build/routes/Contact._index-ODZBVLCD.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/Profile._profile": { id: "routes/Profile._profile", parentId: "root", path: "Profile", index: void 0, caseSensitive: void 0, module: "/build/routes/Profile._profile-IKKWC7JU.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/Project._index": { id: "routes/Project._index", parentId: "root", path: "Project", index: !0, caseSensitive: void 0, module: "/build/routes/Project._index-4KT5MYZD.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_index": { id: "routes/_index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_index-66B7WIDG.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, cssBundleHref: "/build/css-bundle-JLLIJRJK.css", version: "530c9750", hmr: void 0, url: "/build/manifest-530C9750.js" };
   }
 });
 
@@ -69,7 +69,7 @@ var entry_server_exports = {};
 __export(entry_server_exports, {
   default: () => handleRequest
 });
-var import_node_stream = require("node:stream"), import_node = require("@remix-run/node"), import_react = require("@remix-run/react"), import_isbot = __toESM(require("isbot")), import_server = require("react-dom/server"), import_jsx_runtime = require("react/jsx-runtime"), ABORT_DELAY = 5e3;
+var import_node_stream = require("node:stream"), import_node = require("@remix-run/node"), import_react = require("@remix-run/react"), import_isbot = __toESM(require("isbot")), import_server = require("react-dom/server"), import_jsx_dev_runtime = require("react/jsx-dev-runtime"), ABORT_DELAY = 5e3;
 function handleRequest(request, responseStatusCode, responseHeaders, remixContext, loadContext) {
   return (0, import_isbot.default)(request.headers.get("user-agent")) ? handleBotRequest(
     request,
@@ -86,13 +86,21 @@ function handleRequest(request, responseStatusCode, responseHeaders, remixContex
 function handleBotRequest(request, responseStatusCode, responseHeaders, remixContext) {
   return new Promise((resolve, reject) => {
     let { pipe, abort } = (0, import_server.renderToPipeableStream)(
-      /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(
         import_react.RemixServer,
         {
           context: remixContext,
           url: request.url,
           abortDelay: ABORT_DELAY
-        }
+        },
+        void 0,
+        !1,
+        {
+          fileName: "app/entry.server.jsx",
+          lineNumber: 47,
+          columnNumber: 7
+        },
+        this
       ),
       {
         onAllReady() {
@@ -118,13 +126,21 @@ function handleBotRequest(request, responseStatusCode, responseHeaders, remixCon
 function handleBrowserRequest(request, responseStatusCode, responseHeaders, remixContext) {
   return new Promise((resolve, reject) => {
     let { pipe, abort } = (0, import_server.renderToPipeableStream)(
-      /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(
         import_react.RemixServer,
         {
           context: remixContext,
           url: request.url,
           abortDelay: ABORT_DELAY
-        }
+        },
+        void 0,
+        !1,
+        {
+          fileName: "app/entry.server.jsx",
+          lineNumber: 90,
+          columnNumber: 7
+        },
+        this
       ),
       {
         onShellReady() {
@@ -157,68 +173,219 @@ __export(root_exports, {
 var import_css_bundle = __toESM(require_server());
 
 // app/components/Navbar.jsx
-var import_jsx_runtime2 = require("react/jsx-runtime"), Navbar = () => /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("nav", { children: /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("ul", { children: [
-  /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("a", { href: "/", children: "Home" }) }),
-  /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("a", { href: "/Profile", children: "Profile" }) }),
-  /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("a", { href: "/Project", children: "Project" }) }),
-  /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("a", { href: "/Contact", children: "Contact" }) })
-] }) }), Navbar_default = Navbar;
+var import_jsx_dev_runtime2 = require("react/jsx-dev-runtime"), Navbar = () => /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("nav", { children: [
+  /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(
+    "div",
+    {
+      className: "logo",
+      children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(
+          "img",
+          {
+            href: "/",
+            src: "#",
+            alt: ""
+          },
+          void 0,
+          !1,
+          {
+            fileName: "app/components/Navbar.jsx",
+            lineNumber: 9,
+            columnNumber: 13
+          },
+          this
+        ),
+        "x"
+      ]
+    },
+    void 0,
+    !0,
+    {
+      fileName: "app/components/Navbar.jsx",
+      lineNumber: 5,
+      columnNumber: 9
+    },
+    this
+  ),
+  /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("ul", { children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("a", { href: "/", children: "Home" }, void 0, !1, {
+      fileName: "app/components/Navbar.jsx",
+      lineNumber: 17,
+      columnNumber: 17
+    }, this) }, void 0, !1, {
+      fileName: "app/components/Navbar.jsx",
+      lineNumber: 16,
+      columnNumber: 9
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("a", { href: "/Profile", children: "Profile" }, void 0, !1, {
+      fileName: "app/components/Navbar.jsx",
+      lineNumber: 20,
+      columnNumber: 17
+    }, this) }, void 0, !1, {
+      fileName: "app/components/Navbar.jsx",
+      lineNumber: 19,
+      columnNumber: 13
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("a", { href: "/Project", children: "Project" }, void 0, !1, {
+      fileName: "app/components/Navbar.jsx",
+      lineNumber: 23,
+      columnNumber: 17
+    }, this) }, void 0, !1, {
+      fileName: "app/components/Navbar.jsx",
+      lineNumber: 22,
+      columnNumber: 13
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("a", { href: "/Contact", children: "Contact" }, void 0, !1, {
+      fileName: "app/components/Navbar.jsx",
+      lineNumber: 26,
+      columnNumber: 17
+    }, this) }, void 0, !1, {
+      fileName: "app/components/Navbar.jsx",
+      lineNumber: 25,
+      columnNumber: 13
+    }, this)
+  ] }, void 0, !0, {
+    fileName: "app/components/Navbar.jsx",
+    lineNumber: 15,
+    columnNumber: 9
+  }, this)
+] }, void 0, !0, {
+  fileName: "app/components/Navbar.jsx",
+  lineNumber: 4,
+  columnNumber: 5
+}, this), Navbar_default = Navbar;
 
 // app/root.jsx
-var import_react2 = require("@remix-run/react"), import_jsx_runtime3 = require("react/jsx-runtime"), links = () => [
+var import_react2 = require("@remix-run/react"), import_jsx_dev_runtime3 = require("react/jsx-dev-runtime"), links = () => [
   ...import_css_bundle.cssBundleHref ? [{ rel: "stylesheet", href: import_css_bundle.cssBundleHref }] : []
 ];
 function App() {
-  return /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("html", { lang: "en", children: [
-    /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("head", { children: [
-      /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("meta", { charSet: "utf-8" }),
-      /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("meta", { name: "viewport", content: "width=device-width,initial-scale=1" }),
-      /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(import_react2.Meta, {}),
-      /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(import_react2.Links, {})
-    ] }),
-    /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("body", { children: [
-      /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(Navbar_default, {}),
-      /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(import_react2.Outlet, {}),
-      /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(import_react2.ScrollRestoration, {}),
-      /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(import_react2.Scripts, {}),
-      /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(import_react2.LiveReload, {})
-    ] })
-  ] });
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("html", { lang: "en", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("head", { children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("meta", { charSet: "utf-8" }, void 0, !1, {
+        fileName: "app/root.jsx",
+        lineNumber: 22,
+        columnNumber: 9
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("meta", { name: "viewport", content: "width=device-width,initial-scale=1" }, void 0, !1, {
+        fileName: "app/root.jsx",
+        lineNumber: 23,
+        columnNumber: 9
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_react2.Meta, {}, void 0, !1, {
+        fileName: "app/root.jsx",
+        lineNumber: 24,
+        columnNumber: 9
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_react2.Links, {}, void 0, !1, {
+        fileName: "app/root.jsx",
+        lineNumber: 25,
+        columnNumber: 9
+      }, this)
+    ] }, void 0, !0, {
+      fileName: "app/root.jsx",
+      lineNumber: 21,
+      columnNumber: 7
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("body", { children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(Navbar_default, {}, void 0, !1, {
+        fileName: "app/root.jsx",
+        lineNumber: 28,
+        columnNumber: 9
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_react2.Outlet, {}, void 0, !1, {
+        fileName: "app/root.jsx",
+        lineNumber: 29,
+        columnNumber: 9
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_react2.ScrollRestoration, {}, void 0, !1, {
+        fileName: "app/root.jsx",
+        lineNumber: 30,
+        columnNumber: 9
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_react2.Scripts, {}, void 0, !1, {
+        fileName: "app/root.jsx",
+        lineNumber: 31,
+        columnNumber: 9
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_react2.LiveReload, {}, void 0, !1, {
+        fileName: "app/root.jsx",
+        lineNumber: 32,
+        columnNumber: 9
+      }, this)
+    ] }, void 0, !0, {
+      fileName: "app/root.jsx",
+      lineNumber: 27,
+      columnNumber: 7
+    }, this)
+  ] }, void 0, !0, {
+    fileName: "app/root.jsx",
+    lineNumber: 20,
+    columnNumber: 5
+  }, this);
 }
 
 // app/routes/Profile._profile.jsx
 var Profile_profile_exports = {};
 __export(Profile_profile_exports, {
-  default: () => Profile_profile_default
+  default: () => Profile_profile_default,
+  meta: () => meta
 });
-var import_jsx_runtime4 = require("react/jsx-runtime"), Profile = () => /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", { children: "Hola spy el perfil" }), Profile_profile_default = Profile;
+var import_jsx_dev_runtime4 = require("react/jsx-dev-runtime"), meta = () => [
+  { title: "Profile" },
+  { name: "description", content: "my profile is" }
+], Profile = () => /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("div", { children: "Hola spy el perfil" }, void 0, !1, {
+  fileName: "app/routes/Profile._profile.jsx",
+  lineNumber: 11,
+  columnNumber: 5
+}, this), Profile_profile_default = Profile;
 
 // app/routes/Contact._index.jsx
 var Contact_index_exports = {};
 __export(Contact_index_exports, {
-  default: () => Contact_index_default
+  default: () => Contact_index_default,
+  meta: () => meta2
 });
-var import_react3 = require("react"), import_jsx_runtime5 = require("react/jsx-runtime"), Contact = () => /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("div", { children: "Soy el contacto" }), Contact_index_default = Contact;
+var import_jsx_dev_runtime5 = require("react/jsx-dev-runtime"), meta2 = () => [
+  { title: "Contact" },
+  { name: "description", content: "Insert you information on form" }
+], Contact = () => /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { children: "Soy el contacto" }, void 0, !1, {
+  fileName: "app/routes/Contact._index.jsx",
+  lineNumber: 10,
+  columnNumber: 5
+}, this), Contact_index_default = Contact;
 
 // app/routes/Project._index.jsx
 var Project_index_exports = {};
 __export(Project_index_exports, {
-  default: () => Project_index_default
+  default: () => Project_index_default,
+  meta: () => meta3
 });
-var import_jsx_runtime6 = require("react/jsx-runtime"), Project = () => /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("div", { children: "Soy el perfil" }), Project_index_default = Project;
+var import_jsx_dev_runtime6 = require("react/jsx-dev-runtime"), meta3 = () => [
+  { title: "Project" },
+  { name: "description", content: "it's projects and working develop" }
+], Project = () => /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { children: "Soy el perfil" }, void 0, !1, {
+  fileName: "app/routes/Project._index.jsx",
+  lineNumber: 10,
+  columnNumber: 5
+}, this), Project_index_default = Project;
 
 // app/routes/_index.jsx
 var index_exports = {};
 __export(index_exports, {
   default: () => Index,
-  meta: () => meta
+  meta: () => meta4
 });
-var import_jsx_runtime7 = require("react/jsx-runtime"), meta = () => [
+var import_jsx_dev_runtime7 = require("react/jsx-dev-runtime"), meta4 = () => [
   { title: "Portafolio" },
   { name: "description", content: "Soy el portafolio de JGCODE" }
 ];
 function Index() {
-  return /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(import_jsx_runtime7.Fragment, { children: "SOMOS" });
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(import_jsx_dev_runtime7.Fragment, { children: "SOMOS" }, void 0, !1, {
+    fileName: "app/routes/_index.jsx",
+    lineNumber: 11,
+    columnNumber: 5
+  }, this);
 }
 
 // server-entry-module:@remix-run/dev/server-build
@@ -288,3 +455,4 @@ var assetsBuildDirectory = "public\\build", future = { unstable_dev: !1, unstabl
    * @license MIT
    *)
 */
+//# sourceMappingURL=index.js.map

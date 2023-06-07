@@ -1,8 +1,17 @@
 
-
 const Navbar = () => {
   return (
     <nav>
+        <div 
+        className="logo"
+        
+        >
+            <img 
+            href="/"
+            src="#" 
+            alt="" />
+            x
+        </div>
         <ul>
         <li>
                 <a href="/">Home</a>

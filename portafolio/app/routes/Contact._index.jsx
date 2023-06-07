@@ -1,4 +1,9 @@
-import React from 'react'
+export const meta = () => {
+  return [
+    { title: "Contact" },
+    { name: "description", content: "Insert you information on form" },
+  ];
+};
 
 const Contact = () => {
   return (

@@ -1,4 +1,10 @@
 
+export const meta = () => {
+  return [
+    { title: "Profile" },
+    { name: "description", content: "my profile is" },
+  ];
+};
 
 const Profile = () => {
   return (

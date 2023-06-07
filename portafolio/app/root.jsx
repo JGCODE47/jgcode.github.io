@@ -1,4 +1,6 @@
 import { cssBundleHref } from "@remix-run/css-bundle";
+import './Assets/css/style.css'
+
 import Navbar from "./components/Navbar";
 import {
   Links,

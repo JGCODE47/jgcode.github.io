@@ -8,8 +8,15 @@ export const meta = () => {
 
 export default function Index() {
   return (
-    <>
-      SOMOS
-    </>
+    <section className="Profile">
+      <div className="content-profile">
+        <div>
+          <h1>Lorem, ipsum.</h1>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos necessitatibus alias recusandae quisquam. Voluptatum corrupti eaque nam dolor sunt doloribus impedit, quo dolorem facere sed quisquam earum autem sint. Qui.
+          </p>
+        </div>
+      </div>
+    </section>
   );
 }

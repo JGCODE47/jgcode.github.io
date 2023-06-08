@@ -7,7 +7,7 @@ export const meta = () => {
 
 const Project = () => {
   return (
-    <div>Soy el perfil</div>
+  <></>
   )
 }
 

@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Titillium+Web:wght@300;700;900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Press Start 2P', cursive;
+}
+
+/*Navegacion mas query*/
+
+nav {
+    position: fixed;
+    z-index: 1050;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background: rgb(28, 25, 25);
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    gap: 1rem;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    font-size: 0.7rem;
+}
+
+nav ul li a {
+    color: aliceblue;
+    text-decoration: none;
+    list-style: none;
+    transition: all 1s ease-out;
+
+}
+
+nav ul li a:hover {
+    color: red;
+}
+
+
+.logo {
+    color: antiquewhite;
+}
+
+.logo a {
+    text-decoration: none;
+    color: aliceblue;
+    transition: all 1s ease-out;
+}
+
+.logo a:hover {
+    color: red;
+}
+
+
+
+
+
+
+
+/*Profile*/
+.Profile {
+    background: url('https://st.depositphotos.com/1438688/3547/i/450/depositphotos_35476539-stock-photo-codejavascript-in-text-editor.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+}
+
+.Profile::before {
+    content: "";
+    position: absolute;
+    z-index: inherit;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(27, 3, 3, 0.708);
+}
+
+.content-profile {
+    display: flex;
+    position: relative;
+    width: 90%;
+    gap: 2rem;
+    height: 94vh;
+    justify-content: space-around;
+    align-items: center;
+    background-size: cover;
+    color: aliceblue;
+    margin: auto;
+}
+
+
+
+.content-profile div img {
+    width: 40vh;
+    height: 40vh;
+    border-radius: 50%;
+}
+
+.content-profile div {
+    text-align: center;
+}
+
+/*texto para los parrafos*/
+p {
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+/*
+
+
+*/

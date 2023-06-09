@@ -45,16 +45,16 @@ const Navbar = () => {
       </div>
       <Ul>
         <Li>
-          <Anc href="/">Home</Anc>
+          <Anc href="/">Inicio</Anc>
         </Li>
         <Li>
-          <Anc href="/Profile">Profile</Anc>
+          <Anc href="/Profile">Perfil</Anc>
         </Li>
         <Li>
-          <Anc href="/Project">Project</Anc>
+          <Anc href="/Project">Proyectos</Anc>
         </Li>
         <Li>
-          <Anc href="/Contact">Contact</Anc>
+          <Anc href="/Contact">Hablame</Anc>
         </Li>
       </Ul>
     </Nav>

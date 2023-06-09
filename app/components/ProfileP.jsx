@@ -30,6 +30,10 @@ const Div = styled.div`
     justify-content: center;
     color: aliceblue;
     gap: 1rem;
+
+    @media (max-width:560px) {
+      flex-direction: ${props => props.directionxs};
+    }
 `
 const Img = styled.img`
     width: 50vh;
@@ -56,9 +60,9 @@ const Divtec = styled.div`
 const ProfileP = ({ data }) => {
   return (
     <Divider>
-      <Div style={{padding:"0 3rem"}} direction="row" color="transparent" alto="100vh">
+      <Div style={{padding:"0 3rem"}} direction="row" directionxs="column" color="transparent" alto="100vh">
         <div>
-          <Img src={data.img} alt="JGCODE" />
+          <Img style={{boxShadow:"0 0 10px 0", color:"darkblue"}} src={data.img} alt="JGCODE" />
         </div>
         <div>
           <Title>{data.title}</Title>

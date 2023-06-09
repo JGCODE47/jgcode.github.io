@@ -1,3 +1,5 @@
+Nota: Antes que nada agradecerte por estar aqui descarga la rama que se llama local_por es donde estaran los archivos del proyecto para editar react, remix... si puedes agradecer por esto regalame un cafe en mi perfil del git lo puedes hacer 
+
 # Welcome to Remix!
 
 - [Remix Docs](https://remix.run/docs)

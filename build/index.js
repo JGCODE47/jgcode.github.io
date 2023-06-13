@@ -194,33 +194,22 @@ function App() {
   ] });
 }
 
-// app/routes/Project._index.jsx
-var Project_index_exports = {};
-__export(Project_index_exports, {
-  default: () => Project_index_default,
-  meta: () => meta
-});
-var import_jsx_runtime4 = require("react/jsx-runtime"), meta = () => [
-  { title: "Project" },
-  { name: "description", content: "it's projects and working develop" }
-], Project = () => /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(import_jsx_runtime4.Fragment, {}), Project_index_default = Project;
-
 // app/routes/Contact.jsx
 var Contact_exports = {};
 __export(Contact_exports, {
   default: () => Contact_default,
-  meta: () => meta2
+  meta: () => meta
 });
-var import_jsx_runtime5 = require("react/jsx-runtime"), meta2 = () => [
+var import_jsx_runtime4 = require("react/jsx-runtime"), meta = () => [
   { title: "Contact" },
   { name: "description", content: "Insert you information on form" }
-], Contact = () => /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("div", { children: "Soy el contacto" }), Contact_default = Contact;
+], Contact = () => /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", { children: "Soy el contacto" }), Contact_default = Contact;
 
 // app/routes/Profile.jsx
 var Profile_exports = {};
 __export(Profile_exports, {
   default: () => Profile_default,
-  meta: () => meta3
+  meta: () => meta2
 });
 
 // app/components/ProfileP.jsx
@@ -230,7 +219,7 @@ var import_styled2 = __toESM(require("@emotion/styled"));
 var bmc_icon_default = "/build/_assets/bmc-icon-67ROOZLU.svg";
 
 // app/components/ProfileP.jsx
-var import_jsx_runtime6 = require("react/jsx-runtime"), Divider = import_styled2.default.div`
+var import_jsx_runtime5 = require("react/jsx-runtime"), Divider = import_styled2.default.div`
     position: relative;
     background: url('https://st.depositphotos.com/1438688/3547/i/450/depositphotos_35476539-stock-photo-codejavascript-in-text-editor.jpg');
     background-repeat: no-repeat;
@@ -275,42 +264,42 @@ padding: 0 2rem;
   gap:4rem;
   align-items: center;
   justify-content: center;
-`, ProfileP = ({ data: data2 }) => /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)(Divider, { children: [
-  /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)(Div, { style: { padding: "0 3rem" }, direction: "row", color: "transparent", alto: "100vh", children: [
-    /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("div", { children: /* @__PURE__ */ (0, import_jsx_runtime6.jsx)(Img, { src: data2.img, alt: "JGCODE" }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)("div", { children: [
-      /* @__PURE__ */ (0, import_jsx_runtime6.jsx)(Title, { children: data2.title }),
-      /* @__PURE__ */ (0, import_jsx_runtime6.jsx)(P, { children: data2.description })
+`, ProfileP = ({ data: data3 }) => /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)(Divider, { children: [
+  /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)(Div, { style: { padding: "0 3rem" }, direction: "row", color: "transparent", alto: "100vh", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("div", { children: /* @__PURE__ */ (0, import_jsx_runtime5.jsx)(Img, { src: data3.img, alt: "JGCODE" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)("div", { children: [
+      /* @__PURE__ */ (0, import_jsx_runtime5.jsx)(Title, { children: data3.title }),
+      /* @__PURE__ */ (0, import_jsx_runtime5.jsx)(P, { children: data3.description })
     ] })
   ] }),
-  /* @__PURE__ */ (0, import_jsx_runtime6.jsx)(Div, { direction: "row", color: "rgba(0, 0, 0, 0.87)", alto: "30vh", children: /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)("div", { children: [
-    /* @__PURE__ */ (0, import_jsx_runtime6.jsx)(Title, { children: "Tecnologias" }),
-    /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)(Divtec, { children: [
-      /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("img", { style: { width: "5%" }, src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg", alt: "" }),
-      /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("img", { style: { width: "5%" }, src: "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png", alt: "" }),
-      /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("img", { style: { width: "5%" }, src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg", alt: "" }),
-      /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("img", { style: { width: "5%" }, src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg", alt: "" }),
-      /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("img", { style: { width: "5%" }, src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg", alt: "" }),
-      /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("img", { style: { width: "5%" }, src: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg", alt: "" }),
-      /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("img", { style: { width: "5%" }, src: "https://raw.githubusercontent.com/prplx/svg-logos/5585531d45d294869c4eaab4d7cf2e9c167710a9/svg/materialize.svg", alt: "" }),
-      /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("img", { style: { width: "5%" }, src: "https://www.vectorlogo.zone/logos/zapier/zapier-icon.svg", alt: "" }),
-      /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("img", { style: { width: "5%" }, src: "https://cdn.worldvectorlogo.com/logos/adobe-xd.svg", alt: "" })
+  /* @__PURE__ */ (0, import_jsx_runtime5.jsx)(Div, { direction: "row", color: "rgba(0, 0, 0, 0.87)", alto: "30vh", children: /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)("div", { children: [
+    /* @__PURE__ */ (0, import_jsx_runtime5.jsx)(Title, { children: "Tecnologias" }),
+    /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)(Divtec, { children: [
+      /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("img", { style: { width: "5%" }, src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg", alt: "" }),
+      /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("img", { style: { width: "5%" }, src: "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png", alt: "" }),
+      /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("img", { style: { width: "5%" }, src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg", alt: "" }),
+      /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("img", { style: { width: "5%" }, src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg", alt: "" }),
+      /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("img", { style: { width: "5%" }, src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg", alt: "" }),
+      /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("img", { style: { width: "5%" }, src: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg", alt: "" }),
+      /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("img", { style: { width: "5%" }, src: "https://raw.githubusercontent.com/prplx/svg-logos/5585531d45d294869c4eaab4d7cf2e9c167710a9/svg/materialize.svg", alt: "" }),
+      /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("img", { style: { width: "5%" }, src: "https://www.vectorlogo.zone/logos/zapier/zapier-icon.svg", alt: "" }),
+      /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("img", { style: { width: "5%" }, src: "https://cdn.worldvectorlogo.com/logos/adobe-xd.svg", alt: "" })
     ] })
   ] }) }),
-  /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)(Div, { direction: "column", color: "rgba(44, 43, 43, 0.799)", alto: "30vh", children: [
-    /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("img", { style: { width: "100%", fontSize: "2rem" }, src: bmc_icon_default, alt: "" }),
-    /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)("div", { style: { textAlign: "center" }, children: [
-      /* @__PURE__ */ (0, import_jsx_runtime6.jsx)(Title, { children: "Si te nace doname un cafesito " }),
-      /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("a", { href: "https://bmc.link/JGCODE", target: "_black", children: "Aqui" })
+  /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)(Div, { direction: "column", color: "rgba(44, 43, 43, 0.799)", alto: "30vh", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("img", { style: { width: "100%", fontSize: "2rem" }, src: bmc_icon_default, alt: "" }),
+    /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)("div", { style: { textAlign: "center" }, children: [
+      /* @__PURE__ */ (0, import_jsx_runtime5.jsx)(Title, { children: "Si te nace doname un cafesito " }),
+      /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("a", { href: "https://bmc.link/JGCODE", target: "_black", children: "Aqui" })
     ] })
   ] })
 ] }), ProfileP_default = ProfileP;
 
 // app/routes/Profile.jsx
-var import_jsx_runtime7 = require("react/jsx-runtime"), meta3 = () => [
+var import_jsx_runtime6 = require("react/jsx-runtime"), meta2 = () => [
   { title: "Profile" },
   { name: "description", content: "my profile is" }
-], Profile = () => /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(
+], Profile = () => /* @__PURE__ */ (0, import_jsx_runtime6.jsx)(
   ProfileP_default,
   {
     data: {
@@ -321,6 +310,68 @@ var import_jsx_runtime7 = require("react/jsx-runtime"), meta3 = () => [
   }
 ), Profile_default = Profile;
 
+// app/routes/Project.jsx
+var Project_exports = {};
+__export(Project_exports, {
+  default: () => Project_default,
+  meta: () => meta3
+});
+
+// app/components/Projects.jsx
+var import_styled3 = __toESM(require("@emotion/styled")), import_jsx_runtime7 = require("react/jsx-runtime"), Divider2 = import_styled3.default.div`
+    position: relative;
+    background: url('https://st.depositphotos.com/1438688/3547/i/450/depositphotos_35476539-stock-photo-codejavascript-in-text-editor.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    &::before {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(27, 3, 3, 0.708);
+}
+`, Div2 = import_styled3.default.div`
+    position: relative;
+    z-index: 2;
+    height: ${(props) => props.alto};
+    display: flex;
+    flex-direction: ${(props) => props.direction};
+    background:${(props) => props.color};
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    gap: 1rem;
+`, Title2 = import_styled3.default.h1`
+  text-align: center;
+`, P2 = import_styled3.default.p`
+font-family: 'Press Start 2P', cursive;
+font-family: 'Titillium Web', sans-serif;
+font-weight: 700;
+font-size: 1.3rem;
+padding: 0 2rem;
+`, Projects = ({ data: data3 }) => /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(Divider2, { children: /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(Div2, { style: { padding: "0 3rem" }, direction: "row", color: "transparent", alto: "100vh", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { children: [
+  /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(Title2, { children: data3.title }),
+  /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(P2, { children: data3.description })
+] }) }) }), Projects_default = Projects;
+
+// app/routes/Project.jsx
+var import_jsx_runtime8 = require("react/jsx-runtime"), meta3 = () => [
+  { title: "Project" },
+  { name: "description", content: "it's projects and working develop" }
+], data = {
+  title: "Desliza y observa mis proyectos",
+  description: "En esta seccion encontrarar detallado los proyectos que e desarrollado a lo largo de mi vida.. espero puedas valorar mis conocimientos con ellos"
+}, Project = () => /* @__PURE__ */ (0, import_jsx_runtime8.jsx)(
+  Projects_default,
+  {
+    data
+  }
+), Project_default = Project;
+
 // app/routes/_index.jsx
 var index_exports = {};
 __export(index_exports, {
@@ -329,10 +380,10 @@ __export(index_exports, {
 });
 
 // app/components/Home.jsx
-var import_styled4 = __toESM(require("@emotion/styled"));
+var import_styled5 = __toESM(require("@emotion/styled"));
 
 // app/components/Button.jsx
-var import_styled3 = __toESM(require("@emotion/styled")), import_jsx_runtime8 = require("react/jsx-runtime"), Btn = import_styled3.default.button`
+var import_styled4 = __toESM(require("@emotion/styled")), import_jsx_runtime9 = require("react/jsx-runtime"), Btn = import_styled4.default.button`
     cursor: pointer;
     padding: 1rem 2rem;
     border: 0;
@@ -357,10 +408,10 @@ var import_styled3 = __toESM(require("@emotion/styled")), import_jsx_runtime8 = 
         box-shadow: 0 0 15px 0;
       } 
   }
-`, Button = ({ styleBtn, children }) => /* @__PURE__ */ (0, import_jsx_runtime8.jsx)(Btn, { className: "btn-" + styleBtn, children }), Button_default = Button;
+`, Button = ({ styleBtn, children }) => /* @__PURE__ */ (0, import_jsx_runtime9.jsx)(Btn, { className: "btn-" + styleBtn, children }), Button_default = Button;
 
 // app/components/Home.jsx
-var import_jsx_runtime9 = require("react/jsx-runtime"), Divider2 = import_styled4.default.div`
+var import_jsx_runtime10 = require("react/jsx-runtime"), Divider3 = import_styled5.default.div`
     position: relative;
     background: url('https://st.depositphotos.com/1438688/3547/i/450/depositphotos_35476539-stock-photo-codejavascript-in-text-editor.jpg');
     background-repeat: no-repeat;
@@ -376,7 +427,7 @@ var import_jsx_runtime9 = require("react/jsx-runtime"), Divider2 = import_styled
     height: 100vh;
     background-color: rgba(27, 3, 3, 0.708);
 }
-`, Div2 = import_styled4.default.div`
+`, Div3 = import_styled5.default.div`
     position: relative;
     z-index: 2;
     height: 90vh;
@@ -386,18 +437,18 @@ var import_jsx_runtime9 = require("react/jsx-runtime"), Divider2 = import_styled
     justify-content: center;
     color: aliceblue;
     gap: 1rem;
-`, Title2 = import_styled4.default.h1`
+`, Title3 = import_styled5.default.h1`
   text-align: center;
-`, P2 = import_styled4.default.p`
+`, P3 = import_styled5.default.p`
 font-family: 'Press Start 2P', cursive;
 font-family: 'Titillium Web', sans-serif;
 font-weight: 700;
 font-size: 1.3rem;
 padding: 0 2rem;
-`, Home = ({ data: data2 }) => /* @__PURE__ */ (0, import_jsx_runtime9.jsx)(Divider2, { children: /* @__PURE__ */ (0, import_jsx_runtime9.jsxs)(Div2, { children: [
-  /* @__PURE__ */ (0, import_jsx_runtime9.jsx)(Title2, { children: data2.title }),
-  /* @__PURE__ */ (0, import_jsx_runtime9.jsx)(P2, { children: data2.description }),
-  /* @__PURE__ */ (0, import_jsx_runtime9.jsx)(
+`, Home = ({ data: data3 }) => /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(Divider3, { children: /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)(Div3, { children: [
+  /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(Title3, { children: data3.title }),
+  /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(P3, { children: data3.description }),
+  /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(
     Button_default,
     {
       styleBtn: "primary",
@@ -407,24 +458,24 @@ padding: 0 2rem;
 ] }) }), Home_default = Home;
 
 // app/routes/_index.jsx
-var import_jsx_runtime10 = require("react/jsx-runtime"), meta4 = () => [
+var import_jsx_runtime11 = require("react/jsx-runtime"), meta4 = () => [
   { title: "Portafolio" },
   { name: "description", content: "Soy el portafolio de JGCODE" }
-], data = {
+], data2 = {
   title: "!Hola... me necesitas",
   description: "Si en algun momento quieres hablar conmigo puedes contactarme sin ningun problema, te ayudare lo mejor posible"
 };
 function Index() {
-  return /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(import_jsx_runtime10.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(import_jsx_runtime11.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(
     Home_default,
     {
-      data
+      data: data2
     }
   ) });
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-44E56S5E.js", imports: ["/build/_shared/chunk-DQFVS2MO.js", "/build/_shared/chunk-5XCBIPQZ.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-Y5QWIMST.js", imports: ["/build/_shared/chunk-W4B7DFIU.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/Contact": { id: "routes/Contact", parentId: "root", path: "Contact", index: void 0, caseSensitive: void 0, module: "/build/routes/Contact-SHFE7ORO.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/Profile": { id: "routes/Profile", parentId: "root", path: "Profile", index: void 0, caseSensitive: void 0, module: "/build/routes/Profile-7LEVZ4RW.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/Project._index": { id: "routes/Project._index", parentId: "root", path: "Project", index: !0, caseSensitive: void 0, module: "/build/routes/Project._index-QCBD7HIL.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_index": { id: "routes/_index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_index-U6UU4U36.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, cssBundleHref: void 0, version: "a6721de6", hmr: void 0, url: "/build/manifest-A6721DE6.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-44E56S5E.js", imports: ["/build/_shared/chunk-DQFVS2MO.js", "/build/_shared/chunk-5XCBIPQZ.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-Y5QWIMST.js", imports: ["/build/_shared/chunk-W4B7DFIU.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/Contact": { id: "routes/Contact", parentId: "root", path: "Contact", index: void 0, caseSensitive: void 0, module: "/build/routes/Contact-SHFE7ORO.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/Profile": { id: "routes/Profile", parentId: "root", path: "Profile", index: void 0, caseSensitive: void 0, module: "/build/routes/Profile-7LEVZ4RW.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/Project": { id: "routes/Project", parentId: "root", path: "Project", index: void 0, caseSensitive: void 0, module: "/build/routes/Project-LTE4H3KY.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_index": { id: "routes/_index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_index-U6UU4U36.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, cssBundleHref: void 0, version: "36032b0f", hmr: void 0, url: "/build/manifest-36032B0F.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public\\build", future = { unstable_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !0, v2_meta: !0, v2_normalizeFormMethod: !0, v2_routeConvention: !0 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {
@@ -435,14 +486,6 @@ var assetsBuildDirectory = "public\\build", future = { unstable_dev: !1, unstabl
     index: void 0,
     caseSensitive: void 0,
     module: root_exports
-  },
-  "routes/Project._index": {
-    id: "routes/Project._index",
-    parentId: "root",
-    path: "Project",
-    index: !0,
-    caseSensitive: void 0,
-    module: Project_index_exports
   },
   "routes/Contact": {
     id: "routes/Contact",
@@ -459,6 +502,14 @@ var assetsBuildDirectory = "public\\build", future = { unstable_dev: !1, unstabl
     index: void 0,
     caseSensitive: void 0,
     module: Profile_exports
+  },
+  "routes/Project": {
+    id: "routes/Project",
+    parentId: "root",
+    path: "Project",
+    index: void 0,
+    caseSensitive: void 0,
+    module: Project_exports
   },
   "routes/_index": {
     id: "routes/_index",

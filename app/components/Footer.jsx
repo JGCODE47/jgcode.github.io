@@ -1,7 +1,7 @@
 import styled from "@emotion/styled";
 import Logo from '../../public/favicon.ico'
 
-const ContentFooter = styled.footer`    
+const ContentFooter = styled.footer`  
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;

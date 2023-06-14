@@ -55,16 +55,19 @@ const Divtec = styled.div`
 `
 const ProfileP = ({ data }) => {
   return (
-    <Divider>
-      <Div style={{padding:"0 3rem"}} direction="row" color="transparent" alto="100vh">
-        <div>
-          <Img src={data.img} alt="JGCODE" />
-        </div>
-        <div>
-          <Title>{data.title}</Title>
-          <P>{data.description}</P>
-        </div>
-      </Div>
+    <>
+      <Divider>
+        <Div style={{ padding: "0 3rem" }} direction="row" color="transparent" alto="100vh">
+          <div>
+            <Img src={data.img} alt="JGCODE" />
+          </div>
+          <div>
+            <Title>{data.title}</Title>
+            <P>{data.description}</P>
+          </div>
+        </Div>
+      </Divider>
+
       <Div direction="row" color="rgba(0, 0, 0, 0.87)" alto="30vh">
         <div>
           <Title>Tecnologias</Title>
@@ -84,15 +87,15 @@ const ProfileP = ({ data }) => {
 
       </Div>
       <Div direction="column" color="rgba(44, 43, 43, 0.799)" alto="30vh">
-        <img style={{ width: '100%', fontSize:"2rem" }} src={Coffy} alt="" />
-       <div style={{textAlign:"center"}}>
-       <Title>Si te nace doname un cafesito </Title>
-        <a href="https://bmc.link/JGCODE" target="_black">Aqui</a>
-       </div>
+        <img style={{ width: '100%', fontSize: "2rem" }} src={Coffy} alt="" />
+        <div style={{ textAlign: "center" }}>
+          <Title>Si te nace doname un cafesito </Title>
+          <a href="https://bmc.link/JGCODE" target="_black">Aqui</a>
+        </div>
 
       </Div>
+    </>
 
-    </Divider>
   )
 }
 

@@ -153,7 +153,7 @@ var favicon_default = "/build/_assets/favicon-U32CTLWT.ico";
 
 // app/components/Footer.jsx
 var import_jsx_dev_runtime2 = __toESM(require_jsx_dev_runtime());
-var ContentFooter = newStyled.footer`    
+var ContentFooter = newStyled.footer`  
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
@@ -431,4 +431,4 @@ export {
   App as default,
   links
 };
-//# sourceMappingURL=/build/root-TGMOGEN4.js.map
+//# sourceMappingURL=/build/root-FPC6CJRE.js.map

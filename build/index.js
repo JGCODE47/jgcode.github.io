@@ -242,7 +242,7 @@ var import_styled2 = __toESM(require("@emotion/styled"));
 var favicon_default = "/build/_assets/favicon-U32CTLWT.ico";
 
 // app/components/Footer.jsx
-var import_jsx_dev_runtime3 = require("react/jsx-dev-runtime"), ContentFooter = import_styled2.default.footer`    
+var import_jsx_dev_runtime3 = require("react/jsx-dev-runtime"), ContentFooter = import_styled2.default.footer`  
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
@@ -778,34 +778,38 @@ padding: 0 2rem;
   gap:4rem;
   align-items: center;
   justify-content: center;
-`, ProfileP = ({ data: data3 }) => /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(Divider2, { children: [
-  /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(Div3, { style: { padding: "0 3rem" }, direction: "row", color: "transparent", alto: "100vh", children: [
+`, ProfileP = ({ data: data3 }) => /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(import_jsx_dev_runtime8.Fragment, { children: [
+  /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(Divider2, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(Div3, { style: { padding: "0 3rem" }, direction: "row", color: "transparent", alto: "100vh", children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(Img, { src: data3.img, alt: "JGCODE" }, void 0, !1, {
+      fileName: "app/components/ProfileP.jsx",
+      lineNumber: 62,
+      columnNumber: 13
+    }, this) }, void 0, !1, {
       fileName: "app/components/ProfileP.jsx",
       lineNumber: 61,
       columnNumber: 11
-    }, this) }, void 0, !1, {
-      fileName: "app/components/ProfileP.jsx",
-      lineNumber: 60,
-      columnNumber: 9
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(Title, { children: data3.title }, void 0, !1, {
         fileName: "app/components/ProfileP.jsx",
-        lineNumber: 64,
-        columnNumber: 11
+        lineNumber: 65,
+        columnNumber: 13
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(P, { children: data3.description }, void 0, !1, {
         fileName: "app/components/ProfileP.jsx",
-        lineNumber: 65,
-        columnNumber: 11
+        lineNumber: 66,
+        columnNumber: 13
       }, this)
     ] }, void 0, !0, {
       fileName: "app/components/ProfileP.jsx",
-      lineNumber: 63,
-      columnNumber: 9
+      lineNumber: 64,
+      columnNumber: 11
     }, this)
   ] }, void 0, !0, {
+    fileName: "app/components/ProfileP.jsx",
+    lineNumber: 60,
+    columnNumber: 9
+  }, this) }, void 0, !1, {
     fileName: "app/components/ProfileP.jsx",
     lineNumber: 59,
     columnNumber: 7
@@ -813,94 +817,94 @@ padding: 0 2rem;
   /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(Div3, { direction: "row", color: "rgba(0, 0, 0, 0.87)", alto: "30vh", children: /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(Title, { children: "Tecnologias" }, void 0, !1, {
       fileName: "app/components/ProfileP.jsx",
-      lineNumber: 70,
+      lineNumber: 73,
       columnNumber: 11
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(Divtec, { children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("img", { style: { width: "5%" }, src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg", alt: "" }, void 0, !1, {
         fileName: "app/components/ProfileP.jsx",
-        lineNumber: 72,
+        lineNumber: 75,
         columnNumber: 13
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("img", { style: { width: "5%" }, src: "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png", alt: "" }, void 0, !1, {
         fileName: "app/components/ProfileP.jsx",
-        lineNumber: 73,
+        lineNumber: 76,
         columnNumber: 13
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("img", { style: { width: "5%" }, src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg", alt: "" }, void 0, !1, {
         fileName: "app/components/ProfileP.jsx",
-        lineNumber: 74,
+        lineNumber: 77,
         columnNumber: 13
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("img", { style: { width: "5%" }, src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg", alt: "" }, void 0, !1, {
         fileName: "app/components/ProfileP.jsx",
-        lineNumber: 75,
+        lineNumber: 78,
         columnNumber: 13
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("img", { style: { width: "5%" }, src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg", alt: "" }, void 0, !1, {
         fileName: "app/components/ProfileP.jsx",
-        lineNumber: 76,
+        lineNumber: 79,
         columnNumber: 13
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("img", { style: { width: "5%" }, src: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg", alt: "" }, void 0, !1, {
         fileName: "app/components/ProfileP.jsx",
-        lineNumber: 77,
+        lineNumber: 80,
         columnNumber: 13
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("img", { style: { width: "5%" }, src: "https://raw.githubusercontent.com/prplx/svg-logos/5585531d45d294869c4eaab4d7cf2e9c167710a9/svg/materialize.svg", alt: "" }, void 0, !1, {
         fileName: "app/components/ProfileP.jsx",
-        lineNumber: 78,
+        lineNumber: 81,
         columnNumber: 13
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("img", { style: { width: "5%" }, src: "https://www.vectorlogo.zone/logos/zapier/zapier-icon.svg", alt: "" }, void 0, !1, {
         fileName: "app/components/ProfileP.jsx",
-        lineNumber: 79,
+        lineNumber: 82,
         columnNumber: 13
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("img", { style: { width: "5%" }, src: "https://cdn.worldvectorlogo.com/logos/adobe-xd.svg", alt: "" }, void 0, !1, {
         fileName: "app/components/ProfileP.jsx",
-        lineNumber: 80,
+        lineNumber: 83,
         columnNumber: 13
       }, this)
     ] }, void 0, !0, {
       fileName: "app/components/ProfileP.jsx",
-      lineNumber: 71,
+      lineNumber: 74,
       columnNumber: 11
     }, this)
   ] }, void 0, !0, {
     fileName: "app/components/ProfileP.jsx",
-    lineNumber: 69,
+    lineNumber: 72,
     columnNumber: 9
   }, this) }, void 0, !1, {
     fileName: "app/components/ProfileP.jsx",
-    lineNumber: 68,
+    lineNumber: 71,
     columnNumber: 7
   }, this),
   /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(Div3, { direction: "column", color: "rgba(44, 43, 43, 0.799)", alto: "30vh", children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("img", { style: { width: "100%", fontSize: "2rem" }, src: bmc_icon_default, alt: "" }, void 0, !1, {
       fileName: "app/components/ProfileP.jsx",
-      lineNumber: 87,
+      lineNumber: 90,
       columnNumber: 9
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { style: { textAlign: "center" }, children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(Title, { children: "Si te nace doname un cafesito " }, void 0, !1, {
         fileName: "app/components/ProfileP.jsx",
-        lineNumber: 89,
-        columnNumber: 8
+        lineNumber: 92,
+        columnNumber: 11
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("a", { href: "https://bmc.link/JGCODE", target: "_black", children: "Aqui" }, void 0, !1, {
         fileName: "app/components/ProfileP.jsx",
-        lineNumber: 90,
-        columnNumber: 9
+        lineNumber: 93,
+        columnNumber: 11
       }, this)
     ] }, void 0, !0, {
       fileName: "app/components/ProfileP.jsx",
-      lineNumber: 88,
-      columnNumber: 8
+      lineNumber: 91,
+      columnNumber: 9
     }, this)
   ] }, void 0, !0, {
     fileName: "app/components/ProfileP.jsx",
-    lineNumber: 86,
+    lineNumber: 89,
     columnNumber: 7
   }, this)
 ] }, void 0, !0, {
@@ -1218,7 +1222,7 @@ function Index() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-ZQFYYJB3.js", imports: ["/build/_shared/chunk-J4WBSHAY.js", "/build/_shared/chunk-M3PKG3MC.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-TGMOGEN4.js", imports: ["/build/_shared/chunk-MCRCYZNY.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/Contact": { id: "routes/Contact", parentId: "root", path: "Contact", index: void 0, caseSensitive: void 0, module: "/build/routes/Contact-PKF3MTAI.js", imports: ["/build/_shared/chunk-CKGWLONN.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/Profile": { id: "routes/Profile", parentId: "root", path: "Profile", index: void 0, caseSensitive: void 0, module: "/build/routes/Profile-4CAS2JDM.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/Project": { id: "routes/Project", parentId: "root", path: "Project", index: void 0, caseSensitive: void 0, module: "/build/routes/Project-NB5MX3RS.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_index": { id: "routes/_index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_index-LWQDO7AP.js", imports: ["/build/_shared/chunk-CKGWLONN.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, cssBundleHref: void 0, version: "2184060c", hmr: void 0, url: "/build/manifest-2184060C.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-ZQFYYJB3.js", imports: ["/build/_shared/chunk-J4WBSHAY.js", "/build/_shared/chunk-M3PKG3MC.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-FPC6CJRE.js", imports: ["/build/_shared/chunk-MCRCYZNY.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/Contact": { id: "routes/Contact", parentId: "root", path: "Contact", index: void 0, caseSensitive: void 0, module: "/build/routes/Contact-PKF3MTAI.js", imports: ["/build/_shared/chunk-CKGWLONN.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/Profile": { id: "routes/Profile", parentId: "root", path: "Profile", index: void 0, caseSensitive: void 0, module: "/build/routes/Profile-CLTSRDQ7.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/Project": { id: "routes/Project", parentId: "root", path: "Project", index: void 0, caseSensitive: void 0, module: "/build/routes/Project-NB5MX3RS.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_index": { id: "routes/_index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_index-LWQDO7AP.js", imports: ["/build/_shared/chunk-CKGWLONN.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, cssBundleHref: void 0, version: "a78ab818", hmr: void 0, url: "/build/manifest-A78AB818.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public\\build", future = { unstable_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !0, v2_meta: !0, v2_normalizeFormMethod: !0, v2_routeConvention: !0 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {

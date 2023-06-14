@@ -1,4 +1,4 @@
-import styled from "@emotion/styled"
+import styled from "@emotion/styled";
 import Galery from "./Galery";
 
 
@@ -46,6 +46,7 @@ padding: 0 2rem;
 
 const Projects = ({ data }) => {
   return (
+   <>
     <Divider>
       <Div style={{padding:"0 3rem"}} direction="row" color="transparent" alto="100vh">
         <div>
@@ -53,9 +54,12 @@ const Projects = ({ data }) => {
           <P>{data.description}</P>
         </div>
       </Div>     
-      <Galery />
 
     </Divider>
+
+
+
+   </>
   )
 }
 

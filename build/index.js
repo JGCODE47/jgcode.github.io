@@ -817,94 +817,94 @@ padding: 0 2rem;
   /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(Div3, { direction: "row", color: "rgba(0, 0, 0, 0.87)", alto: "30vh", children: /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(Title, { children: "Tecnologias" }, void 0, !1, {
       fileName: "app/components/ProfileP.jsx",
-      lineNumber: 73,
+      lineNumber: 72,
       columnNumber: 11
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(Divtec, { children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("img", { style: { width: "5%" }, src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg", alt: "" }, void 0, !1, {
         fileName: "app/components/ProfileP.jsx",
-        lineNumber: 75,
+        lineNumber: 74,
         columnNumber: 13
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("img", { style: { width: "5%" }, src: "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png", alt: "" }, void 0, !1, {
         fileName: "app/components/ProfileP.jsx",
-        lineNumber: 76,
+        lineNumber: 75,
         columnNumber: 13
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("img", { style: { width: "5%" }, src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg", alt: "" }, void 0, !1, {
         fileName: "app/components/ProfileP.jsx",
-        lineNumber: 77,
+        lineNumber: 76,
         columnNumber: 13
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("img", { style: { width: "5%" }, src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg", alt: "" }, void 0, !1, {
         fileName: "app/components/ProfileP.jsx",
-        lineNumber: 78,
+        lineNumber: 77,
         columnNumber: 13
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("img", { style: { width: "5%" }, src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg", alt: "" }, void 0, !1, {
         fileName: "app/components/ProfileP.jsx",
-        lineNumber: 79,
+        lineNumber: 78,
         columnNumber: 13
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("img", { style: { width: "5%" }, src: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg", alt: "" }, void 0, !1, {
         fileName: "app/components/ProfileP.jsx",
-        lineNumber: 80,
+        lineNumber: 79,
         columnNumber: 13
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("img", { style: { width: "5%" }, src: "https://raw.githubusercontent.com/prplx/svg-logos/5585531d45d294869c4eaab4d7cf2e9c167710a9/svg/materialize.svg", alt: "" }, void 0, !1, {
         fileName: "app/components/ProfileP.jsx",
-        lineNumber: 81,
+        lineNumber: 80,
         columnNumber: 13
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("img", { style: { width: "5%" }, src: "https://www.vectorlogo.zone/logos/zapier/zapier-icon.svg", alt: "" }, void 0, !1, {
         fileName: "app/components/ProfileP.jsx",
-        lineNumber: 82,
+        lineNumber: 81,
         columnNumber: 13
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("img", { style: { width: "5%" }, src: "https://cdn.worldvectorlogo.com/logos/adobe-xd.svg", alt: "" }, void 0, !1, {
         fileName: "app/components/ProfileP.jsx",
-        lineNumber: 83,
+        lineNumber: 82,
         columnNumber: 13
       }, this)
     ] }, void 0, !0, {
       fileName: "app/components/ProfileP.jsx",
-      lineNumber: 74,
+      lineNumber: 73,
       columnNumber: 11
     }, this)
   ] }, void 0, !0, {
     fileName: "app/components/ProfileP.jsx",
-    lineNumber: 72,
+    lineNumber: 71,
     columnNumber: 9
   }, this) }, void 0, !1, {
     fileName: "app/components/ProfileP.jsx",
-    lineNumber: 71,
+    lineNumber: 70,
     columnNumber: 7
   }, this),
   /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(Div3, { direction: "column", color: "rgba(44, 43, 43, 0.799)", alto: "30vh", children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("img", { style: { width: "100%", fontSize: "2rem" }, src: bmc_icon_default, alt: "" }, void 0, !1, {
       fileName: "app/components/ProfileP.jsx",
-      lineNumber: 90,
+      lineNumber: 89,
       columnNumber: 9
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { style: { textAlign: "center" }, children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(Title, { children: "Si te nace doname un cafesito " }, void 0, !1, {
         fileName: "app/components/ProfileP.jsx",
-        lineNumber: 92,
+        lineNumber: 91,
         columnNumber: 11
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("a", { href: "https://bmc.link/JGCODE", target: "_black", children: "Aqui" }, void 0, !1, {
         fileName: "app/components/ProfileP.jsx",
-        lineNumber: 93,
+        lineNumber: 92,
         columnNumber: 11
       }, this)
     ] }, void 0, !0, {
       fileName: "app/components/ProfileP.jsx",
-      lineNumber: 91,
+      lineNumber: 90,
       columnNumber: 9
     }, this)
   ] }, void 0, !0, {
     fileName: "app/components/ProfileP.jsx",
-    lineNumber: 89,
+    lineNumber: 88,
     columnNumber: 7
   }, this)
 ] }, void 0, !0, {
@@ -944,86 +944,8 @@ __export(Project_exports, {
 });
 
 // app/components/Projects.jsx
-var import_styled7 = __toESM(require("@emotion/styled"));
-
-// app/components/Galery.jsx
-var import_styled6 = __toESM(require("@emotion/styled")), import_react3 = require("react"), import_jsx_dev_runtime10 = require("react/jsx-dev-runtime"), GalleryWrapper = import_styled6.default.div`
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 10px;
-`, GalleryItem = import_styled6.default.div`
-  position: relative;
-  overflow: hidden;
-`, GalleryImage = import_styled6.default.img`
-  width: 100%;
-  height: auto;
-  transition: transform 0.3s;
-
-  ${GalleryItem}:hover & {
-    transform: scale(1.1);
-  }
-`, InfoContainer = import_styled6.default.div`
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transform: rotateY(-90deg);
-  transition: transform 0.3s;
-  opacity: 0;
-
-  ${GalleryItem}.active & {
-    transform: rotateY(0deg);
-    opacity: 1;
-  }
-`, Galery = () => {
-  let [activeIndex, setActiveIndex] = (0, import_react3.useState)(null), toggleActive = (index) => {
-    setActiveIndex((prevIndex) => prevIndex === index ? null : index);
-  };
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(GalleryWrapper, { children: [
-    { image: "../Assers/img/gm.jpg", info: "Informaci\xF3n adicional 1" },
-    { image: "imagen2.jpg", info: "Informaci\xF3n adicional 2" }
-    // Agrega más elementos de la galería aquí
-  ].map((item, index) => /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(
-    GalleryItem,
-    {
-      className: activeIndex === index ? "active" : "",
-      onClick: () => toggleActive(index),
-      children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(GalleryImage, { src: item.image, alt: `Imagen ${index + 1}` }, void 0, !1, {
-          fileName: "app/components/Galery.jsx",
-          lineNumber: 68,
-          columnNumber: 13
-        }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(InfoContainer, { children: item.info }, void 0, !1, {
-          fileName: "app/components/Galery.jsx",
-          lineNumber: 69,
-          columnNumber: 13
-        }, this)
-      ]
-    },
-    index,
-    !0,
-    {
-      fileName: "app/components/Galery.jsx",
-      lineNumber: 63,
-      columnNumber: 11
-    },
-    this
-  )) }, void 0, !1, {
-    fileName: "app/components/Galery.jsx",
-    lineNumber: 61,
-    columnNumber: 9
-  }, this);
-}, Galery_default = Galery;
-
-// app/components/Projects.jsx
-var import_jsx_dev_runtime11 = require("react/jsx-dev-runtime"), Divider3 = import_styled7.default.div`
+var import_styled6 = __toESM(require("@emotion/styled"));
+var import_jsx_dev_runtime10 = require("react/jsx-dev-runtime"), Divider3 = import_styled6.default.div`
     position: relative;
     background: url('https://st.depositphotos.com/1438688/3547/i/450/depositphotos_35476539-stock-photo-codejavascript-in-text-editor.jpg');
     background-repeat: no-repeat;
@@ -1039,7 +961,7 @@ var import_jsx_dev_runtime11 = require("react/jsx-dev-runtime"), Divider3 = impo
     height: 100vh;
     background-color: rgba(27, 3, 3, 0.708);
 }
-`, Div4 = import_styled7.default.div`
+`, Div4 = import_styled6.default.div`
     position: relative;
     z-index: 2;
     height: ${(props) => props.alto};
@@ -1050,54 +972,51 @@ var import_jsx_dev_runtime11 = require("react/jsx-dev-runtime"), Divider3 = impo
     justify-content: center;
     color: aliceblue;
     gap: 1rem;
-`, Title2 = import_styled7.default.h1`
+`, Title2 = import_styled6.default.h1`
   text-align: center;
-`, P2 = import_styled7.default.p`
+`, P2 = import_styled6.default.p`
 font-family: 'Press Start 2P', cursive;
 font-family: 'Titillium Web', sans-serif;
 font-weight: 700;
 font-size: 1.3rem;
 padding: 0 2rem;
-`, Projects = ({ data: data3 }) => /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(Divider3, { children: [
-  /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(Div4, { style: { padding: "0 3rem" }, direction: "row", color: "transparent", alto: "100vh", children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(Title2, { children: data3.title }, void 0, !1, {
-      fileName: "app/components/Projects.jsx",
-      lineNumber: 52,
-      columnNumber: 11
-    }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(P2, { children: data3.description }, void 0, !1, {
-      fileName: "app/components/Projects.jsx",
-      lineNumber: 53,
-      columnNumber: 11
-    }, this)
-  ] }, void 0, !0, {
+`, Projects = ({ data: data3 }) => /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(import_jsx_dev_runtime10.Fragment, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(Divider3, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(Div4, { style: { padding: "0 3rem" }, direction: "row", color: "transparent", alto: "100vh", children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { children: [
+  /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(Title2, { children: data3.title }, void 0, !1, {
     fileName: "app/components/Projects.jsx",
-    lineNumber: 51,
-    columnNumber: 9
-  }, this) }, void 0, !1, {
-    fileName: "app/components/Projects.jsx",
-    lineNumber: 50,
-    columnNumber: 7
+    lineNumber: 53,
+    columnNumber: 11
   }, this),
-  /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(Galery_default, {}, void 0, !1, {
+  /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(P2, { children: data3.description }, void 0, !1, {
     fileName: "app/components/Projects.jsx",
-    lineNumber: 56,
-    columnNumber: 7
+    lineNumber: 54,
+    columnNumber: 11
   }, this)
 ] }, void 0, !0, {
   fileName: "app/components/Projects.jsx",
-  lineNumber: 49,
+  lineNumber: 52,
+  columnNumber: 9
+}, this) }, void 0, !1, {
+  fileName: "app/components/Projects.jsx",
+  lineNumber: 51,
+  columnNumber: 7
+}, this) }, void 0, !1, {
+  fileName: "app/components/Projects.jsx",
+  lineNumber: 50,
   columnNumber: 5
+}, this) }, void 0, !1, {
+  fileName: "app/components/Projects.jsx",
+  lineNumber: 49,
+  columnNumber: 4
 }, this), Projects_default = Projects;
 
 // app/routes/Project.jsx
-var import_jsx_dev_runtime12 = require("react/jsx-dev-runtime"), meta3 = () => [
+var import_jsx_dev_runtime11 = require("react/jsx-dev-runtime"), meta3 = () => [
   { title: "Project" },
   { name: "description", content: "it's projects and working develop" }
 ], data = {
   title: "Desliza y observa mis proyectos",
   description: "En esta seccion encontrarar detallado los proyectos que e desarrollado a lo largo de mi vida.. espero puedas valorar mis conocimientos con ellos"
-}, Project = () => /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(
+}, Project = () => /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(
   Projects_default,
   {
     data
@@ -1120,8 +1039,8 @@ __export(index_exports, {
 });
 
 // app/components/Home.jsx
-var import_styled8 = __toESM(require("@emotion/styled"));
-var import_jsx_dev_runtime13 = require("react/jsx-dev-runtime"), Divider4 = import_styled8.default.div`
+var import_styled7 = __toESM(require("@emotion/styled"));
+var import_jsx_dev_runtime12 = require("react/jsx-dev-runtime"), Divider4 = import_styled7.default.div`
     position: relative;
     background: url('https://st.depositphotos.com/1438688/3547/i/450/depositphotos_35476539-stock-photo-codejavascript-in-text-editor.jpg');
     background-repeat: no-repeat;
@@ -1137,7 +1056,7 @@ var import_jsx_dev_runtime13 = require("react/jsx-dev-runtime"), Divider4 = impo
     height: 100vh;
     background-color: rgba(27, 3, 3, 0.708);
 }
-`, Div5 = import_styled8.default.div`
+`, Div5 = import_styled7.default.div`
     position: relative;
     z-index: 2;
     height: 90vh;
@@ -1147,26 +1066,26 @@ var import_jsx_dev_runtime13 = require("react/jsx-dev-runtime"), Divider4 = impo
     justify-content: center;
     color: aliceblue;
     gap: 1rem;
-`, Title3 = import_styled8.default.h1`
+`, Title3 = import_styled7.default.h1`
   text-align: center;
-`, P3 = import_styled8.default.p`
+`, P3 = import_styled7.default.p`
 font-family: 'Press Start 2P', cursive;
 font-family: 'Titillium Web', sans-serif;
 font-weight: 700;
 font-size: 1.3rem;
 padding: 0 2rem;
-`, Home = ({ data: data3 }) => /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(Divider4, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(Div5, { children: [
-  /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(Title3, { children: data3.title }, void 0, !1, {
+`, Home = ({ data: data3 }) => /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(Divider4, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(Div5, { children: [
+  /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(Title3, { children: data3.title }, void 0, !1, {
     fileName: "app/components/Home.jsx",
     lineNumber: 50,
     columnNumber: 9
   }, this),
-  /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(P3, { children: data3.description }, void 0, !1, {
+  /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(P3, { children: data3.description }, void 0, !1, {
     fileName: "app/components/Home.jsx",
     lineNumber: 51,
     columnNumber: 9
   }, this),
-  /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(
+  /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(
     Button_default,
     {
       styleBtn: "primary",
@@ -1193,7 +1112,7 @@ padding: 0 2rem;
 }, this), Home_default = Home;
 
 // app/routes/_index.jsx
-var import_jsx_dev_runtime14 = require("react/jsx-dev-runtime"), meta4 = () => [
+var import_jsx_dev_runtime13 = require("react/jsx-dev-runtime"), meta4 = () => [
   { title: "Portafolio" },
   { name: "description", content: "Soy el portafolio de JGCODE" }
 ], data2 = {
@@ -1201,7 +1120,7 @@ var import_jsx_dev_runtime14 = require("react/jsx-dev-runtime"), meta4 = () => [
   description: "Si en algun momento quieres hablar conmigo puedes contactarme sin ningun problema, te ayudare lo mejor posible"
 };
 function Index() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(import_jsx_dev_runtime14.Fragment, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(import_jsx_dev_runtime13.Fragment, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(
     Home_default,
     {
       data: data2
@@ -1222,7 +1141,7 @@ function Index() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-ZQFYYJB3.js", imports: ["/build/_shared/chunk-J4WBSHAY.js", "/build/_shared/chunk-M3PKG3MC.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-FPC6CJRE.js", imports: ["/build/_shared/chunk-MCRCYZNY.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/Contact": { id: "routes/Contact", parentId: "root", path: "Contact", index: void 0, caseSensitive: void 0, module: "/build/routes/Contact-PKF3MTAI.js", imports: ["/build/_shared/chunk-CKGWLONN.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/Profile": { id: "routes/Profile", parentId: "root", path: "Profile", index: void 0, caseSensitive: void 0, module: "/build/routes/Profile-CLTSRDQ7.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/Project": { id: "routes/Project", parentId: "root", path: "Project", index: void 0, caseSensitive: void 0, module: "/build/routes/Project-NB5MX3RS.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_index": { id: "routes/_index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_index-LWQDO7AP.js", imports: ["/build/_shared/chunk-CKGWLONN.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, cssBundleHref: void 0, version: "a78ab818", hmr: void 0, url: "/build/manifest-A78AB818.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-ZQFYYJB3.js", imports: ["/build/_shared/chunk-J4WBSHAY.js", "/build/_shared/chunk-M3PKG3MC.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-FPC6CJRE.js", imports: ["/build/_shared/chunk-MCRCYZNY.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/Contact": { id: "routes/Contact", parentId: "root", path: "Contact", index: void 0, caseSensitive: void 0, module: "/build/routes/Contact-PKF3MTAI.js", imports: ["/build/_shared/chunk-CKGWLONN.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/Profile": { id: "routes/Profile", parentId: "root", path: "Profile", index: void 0, caseSensitive: void 0, module: "/build/routes/Profile-3CV66JRR.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/Project": { id: "routes/Project", parentId: "root", path: "Project", index: void 0, caseSensitive: void 0, module: "/build/routes/Project-UF623ZZP.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_index": { id: "routes/_index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_index-LWQDO7AP.js", imports: ["/build/_shared/chunk-CKGWLONN.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, cssBundleHref: void 0, version: "949750e3", hmr: void 0, url: "/build/manifest-949750E3.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public\\build", future = { unstable_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !0, v2_meta: !0, v2_normalizeFormMethod: !0, v2_routeConvention: !0 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {

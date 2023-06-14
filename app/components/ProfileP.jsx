@@ -67,7 +67,6 @@ const ProfileP = ({ data }) => {
           </div>
         </Div>
       </Divider>
-
       <Div direction="row" color="rgba(0, 0, 0, 0.87)" alto="30vh">
         <div>
           <Title>Tecnologias</Title>

@@ -128,94 +128,94 @@ var ProfileP = ({ data }) => {
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Div, { direction: "row", color: "rgba(0, 0, 0, 0.87)", alto: "30vh", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Title, { children: "Tecnologias" }, void 0, false, {
         fileName: "app/components/ProfileP.jsx",
-        lineNumber: 73,
+        lineNumber: 72,
         columnNumber: 11
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Divtec, { children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", { style: { width: "5%" }, src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg", alt: "" }, void 0, false, {
           fileName: "app/components/ProfileP.jsx",
-          lineNumber: 75,
+          lineNumber: 74,
           columnNumber: 13
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", { style: { width: "5%" }, src: "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png", alt: "" }, void 0, false, {
           fileName: "app/components/ProfileP.jsx",
-          lineNumber: 76,
+          lineNumber: 75,
           columnNumber: 13
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", { style: { width: "5%" }, src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg", alt: "" }, void 0, false, {
           fileName: "app/components/ProfileP.jsx",
-          lineNumber: 77,
+          lineNumber: 76,
           columnNumber: 13
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", { style: { width: "5%" }, src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg", alt: "" }, void 0, false, {
           fileName: "app/components/ProfileP.jsx",
-          lineNumber: 78,
+          lineNumber: 77,
           columnNumber: 13
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", { style: { width: "5%" }, src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg", alt: "" }, void 0, false, {
           fileName: "app/components/ProfileP.jsx",
-          lineNumber: 79,
+          lineNumber: 78,
           columnNumber: 13
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", { style: { width: "5%" }, src: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg", alt: "" }, void 0, false, {
           fileName: "app/components/ProfileP.jsx",
-          lineNumber: 80,
+          lineNumber: 79,
           columnNumber: 13
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", { style: { width: "5%" }, src: "https://raw.githubusercontent.com/prplx/svg-logos/5585531d45d294869c4eaab4d7cf2e9c167710a9/svg/materialize.svg", alt: "" }, void 0, false, {
           fileName: "app/components/ProfileP.jsx",
-          lineNumber: 81,
+          lineNumber: 80,
           columnNumber: 13
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", { style: { width: "5%" }, src: "https://www.vectorlogo.zone/logos/zapier/zapier-icon.svg", alt: "" }, void 0, false, {
           fileName: "app/components/ProfileP.jsx",
-          lineNumber: 82,
+          lineNumber: 81,
           columnNumber: 13
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", { style: { width: "5%" }, src: "https://cdn.worldvectorlogo.com/logos/adobe-xd.svg", alt: "" }, void 0, false, {
           fileName: "app/components/ProfileP.jsx",
-          lineNumber: 83,
+          lineNumber: 82,
           columnNumber: 13
         }, this)
       ] }, void 0, true, {
         fileName: "app/components/ProfileP.jsx",
-        lineNumber: 74,
+        lineNumber: 73,
         columnNumber: 11
       }, this)
     ] }, void 0, true, {
       fileName: "app/components/ProfileP.jsx",
-      lineNumber: 72,
+      lineNumber: 71,
       columnNumber: 9
     }, this) }, void 0, false, {
       fileName: "app/components/ProfileP.jsx",
-      lineNumber: 71,
+      lineNumber: 70,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Div, { direction: "column", color: "rgba(44, 43, 43, 0.799)", alto: "30vh", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", { style: { width: "100%", fontSize: "2rem" }, src: bmc_icon_default, alt: "" }, void 0, false, {
         fileName: "app/components/ProfileP.jsx",
-        lineNumber: 90,
+        lineNumber: 89,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { style: { textAlign: "center" }, children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Title, { children: "Si te nace doname un cafesito " }, void 0, false, {
           fileName: "app/components/ProfileP.jsx",
-          lineNumber: 92,
+          lineNumber: 91,
           columnNumber: 11
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "https://bmc.link/JGCODE", target: "_black", children: "Aqui" }, void 0, false, {
           fileName: "app/components/ProfileP.jsx",
-          lineNumber: 93,
+          lineNumber: 92,
           columnNumber: 11
         }, this)
       ] }, void 0, true, {
         fileName: "app/components/ProfileP.jsx",
-        lineNumber: 91,
+        lineNumber: 90,
         columnNumber: 9
       }, this)
     ] }, void 0, true, {
       fileName: "app/components/ProfileP.jsx",
-      lineNumber: 89,
+      lineNumber: 88,
       columnNumber: 7
     }, this)
   ] }, void 0, true, {
@@ -260,4 +260,4 @@ export {
   Profile_default as default,
   meta
 };
-//# sourceMappingURL=/build/routes/Profile-CLTSRDQ7.js.map
+//# sourceMappingURL=/build/routes/Profile-3CV66JRR.js.map

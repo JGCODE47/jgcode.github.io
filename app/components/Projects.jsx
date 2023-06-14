@@ -1,4 +1,6 @@
 import styled from "@emotion/styled"
+import Galery from "./Galery";
+
 
 const Divider = styled.div`
     position: relative;
@@ -51,7 +53,7 @@ const Projects = ({ data }) => {
           <P>{data.description}</P>
         </div>
       </Div>     
-     
+      <Galery />
 
     </Divider>
   )

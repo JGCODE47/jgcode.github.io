@@ -1,6 +1,7 @@
 import styles from "./Assets/css/style.css";
 
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 import {
   Links,
@@ -28,11 +29,14 @@ export default function App() {
       </head>
       <body>
         <Navbar />
-        <Outlet />
+        <Outlet />     
+        <Footer />   
         <ScrollRestoration />
-        <Scripts />
+        <Scripts />        
         <LiveReload />
+        
       </body>
+      
     </html>
   );
 }

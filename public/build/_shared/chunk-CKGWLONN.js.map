@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../app/components/Button.jsx"],
+  "sourcesContent": ["import styled from \"@emotion/styled\"\r\n\r\n\r\nconst Btn = styled.a`\r\n    position: relative;\r\n    top:1rem;\r\n    cursor: pointer;\r\n    padding: 1rem 2rem;\r\n    border: 0;\r\n    border-radius: 0.5rem;\r\n    text-decoration: none;\r\n\r\n    &.btn-primary{\r\n    font-family: 'Press Start 2P', cursive;\r\n    font-family: 'Titillium Web', sans-serif;\r\n    color: aliceblue;\r\n    font-weight: 700;\r\n    font-size: 1.4rem;\r\n    background-color: rgba(57, 40, 24, 0.863);\r\n    transition: all 1s ease-out;\r\n    animation-duration: 3s;\r\n    animation-name: BtnPrimary;\r\n    animation-iteration-count: infinite;\r\n    }\r\n    \r\n    @keyframes BtnPrimary { \r\n    50% {\r\n      color: #463630c6;\r\n        box-shadow: 0 0 15px 0;\r\n      } \r\n  }\r\n`\r\n\r\n\r\n\r\n\r\nconst Button = ({ styleBtn, children, to }) => {\r\n\r\n  return (\r\n    <Btn className={`btn-` + styleBtn} href={to} >{children}</Btn>\r\n  )\r\n}\r\n\r\nexport default Button"],
+  "mappings": ";;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAuCI;AApCJ,IAAM,MAAM,UAAO;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAiCnB,IAAM,SAAS,CAAC,EAAE,UAAU,UAAU,GAAG,MAAM;AAE7C,SACE,mDAAC,OAAI,WAAW,SAAS,UAAU,MAAM,IAAM,YAA/C;AAAA;AAAA;AAAA;AAAA,SAAwD;AAE5D;AAEA,IAAO,iBAAQ;",
+  "names": []
+}

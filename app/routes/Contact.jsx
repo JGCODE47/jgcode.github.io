@@ -1,3 +1,4 @@
+import Contacto from "../components/Contacto";
 export const meta = () => {
   return [
     { title: "Contact" },
@@ -7,7 +8,7 @@ export const meta = () => {
 
 const Contact = () => {
   return (
-    <div>Soy el contacto</div>
+  <Contacto />
   )
 }
 

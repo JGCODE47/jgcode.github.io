@@ -52,6 +52,7 @@ const Home = ({data}) => {
         <Button
           styleBtn="primary"
           children="Contactame aqui"
+          to="/Contact"
         />
       </Div>
     </Divider>

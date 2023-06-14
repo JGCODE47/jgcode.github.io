@@ -1,10 +1,14 @@
 import styled from "@emotion/styled"
 
-const Btn = styled.button`
+
+const Btn = styled.a`
+    position: relative;
+    top:1rem;
     cursor: pointer;
     padding: 1rem 2rem;
     border: 0;
     border-radius: 0.5rem;
+    text-decoration: none;
 
     &.btn-primary{
     font-family: 'Press Start 2P', cursive;
@@ -27,9 +31,13 @@ const Btn = styled.button`
   }
 `
 
-const Button = ({styleBtn, children}) => {
+
+
+
+const Button = ({ styleBtn, children, to }) => {
+
   return (
-    <Btn className={`btn-`+styleBtn}>{children}</Btn>
+    <Btn className={`btn-` + styleBtn} href={to} >{children}</Btn>
   )
 }
 
